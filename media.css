@@ -87,4 +87,10 @@
         justify-content: center;
         align-items: center;
     }
+    .download1{
+        display: none;
+    }
+    .span12{
+        display: none;
+    }
 }
