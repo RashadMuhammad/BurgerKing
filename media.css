@@ -1,0 +1,90 @@
+@media (min-width: 800px) {
+
+    .button-special {
+        display: inline;
+    }
+}
+
+@media (min-width:956px) {
+    .card_page{
+        grid-template-columns: auto auto;
+    }
+    .icon_off{
+        display: none;
+    }
+}
+
+@media(max-width:767px) {
+    .btns .button-special {
+        display: none;
+    }
+    .icon_off{
+        display: block;
+    }
+
+    .main1 {
+        display: block;
+    }
+
+    .text_div h1 {
+        padding-left: 1vh;
+        font-size: 6vh;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .buttons .order_button1 {
+        width: 45.6rem;
+    }
+
+    .buttons .order_button1 {
+        width: 45.6rem;
+    }
+
+    .upcoming_div {
+        display: block;
+    }
+
+    .page1 .inner_div {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 650px) {
+    .contact{
+        display: none;    
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 991.98px) {
+    .contact{
+        display: none;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .contact_replace{
+        display: none;
+    }
+    .details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
