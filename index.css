@@ -357,10 +357,35 @@ body section {
 }
 
 .contact_replace{
+
     display: flex;
+    padding-top: 10vh;
     background-color: #EBE2D3;
-/*     padding: 20px; */
+    /* height: 500px; */
+    /* padding: 20px; */
 }
 .contact_replace .text12{
-    width: 60vw;
+    /* width: 60vw; */
 }
+.span12{
+    /* align-items: center; */
+    text-align: center;
+}
+
+.text12 h4{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15vh;
+
+}
+ .download1{
+    /* height: 2vh; */
+    padding-left: 10vh;
+ }
+ .download1 img{
+    height: 4.7vh;
+ }
